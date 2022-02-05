@@ -1,0 +1,132 @@
+@media only screen and (max-width: 600px){
+	body {
+		text-align: center;
+	}
+	.card {
+		object-position: center;
+	}
+	.foot {
+		margin: 0rem 3rem;
+	}
+}
+
+* {
+	font-family: 'Public Sans', sans-serif;
+}
+body {
+	background-color: hsl(0, 0%, 98%);
+}
+h2 {
+	padding-top: 2rem;
+}
+footer {
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: hsl(233, 26%, 24%);
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: hsl(0, 0%, 98%);
+}
+ul {
+	padding: 0px;
+}
+a {
+	text-decoration: none;
+}
+
+.container {
+	background-color: hsl(0, 0%, 98%);
+	width: 100%;
+	border: none;
+}
+.ending {
+	background-color: hsl(220, 16%, 96%);
+	border: none;
+}
+.boxy {
+	background-color: hsl(220, 16%, 96%);
+	border: none;
+}
+.socials {
+	display: inline-block;
+}
+.cardtitle {
+	text-decoration: none;
+	color: hsl(0, 0%, 20%);
+}
+.cardtitle:hover {
+	color: hsl(136, 65%, 51%);
+}
+.card-text, .by, .we {
+	color: hsl(0, 0%, 50%);
+}
+.by {
+	font-size: 12px;
+}
+.button {
+	background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+	border: none;
+	color: white;
+	padding: 12px 36px;
+	margin: 20px 0px;
+	font-weight: 500px;
+	cursor: pointer;
+	border-radius: 30px;
+	transition: all 0.3s;
+}
+.button:hover {
+	background-color: #BCCB16;
+	transform: scale(0.9);
+}
+.btn {
+	background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+	color: white;
+	border: none;
+	padding: 12px 36px;
+	border-radius: 30px;
+	transition: all 0.3s;
+}
+.btn:hover {
+	transform: scale(0.9);
+}
+.foot {
+	margin: 0rem 5rem;
+}
+.eazy {
+	color: hsl(0, 0%, 65%);
+}
+.about {
+	text-decoration: none;
+}
+.fa {
+	display: inline-block;
+	padding: 10px;
+}
+.fa:hover {
+	filter: invert(0%) 
+	sepia(30%) 
+	saturate(500%) 
+	hue-rotate(20deg) 
+	brightness(500%) 
+	contrast(300%);
+}
+.svgIcon {
+	filter: invert(0%) 
+	sepia(30%) 
+	saturate(500%) 
+	hue-rotate(20deg) 
+	brightness(500%) 
+	contrast(300%);
+}
+.c {
+	margin-bottom: 1rem;
+}
+.f-menu {
+	color: hsl(0, 0%, 95%);
+}
+.f-menu:hover {
+	color: hsl(136, 65%, 51%);
+}
